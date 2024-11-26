@@ -217,7 +217,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             //LineTo(hdc, 300, 500);
             LineTo(hdc, rc.right - 50, rc.bottom + 250);
             //LineTo(hdc, 325, 450);
-            /// ㅁㄴㅇ 220줄 ㅎㅇ
+            
             Ellipse(hdc, rc.left + 10, rc.top - 50, rc.right + 15, rc.bottom + 130);
             //Ellipse(hdc, 360, 250, 390, 330);
 
